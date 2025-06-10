@@ -180,8 +180,8 @@ Built with the support of the **BOLT Hackathon Sponsors**:
 
 * Project Lead: \[Contractor-x,Moh-dakai]
 * Submission Email: \[[YourBoltEmail@example.com](mailto:YourBoltEmail@example.com)]
-* GitHub: [https://github.com/Contractor](https://github.com/Contractor-x)
-* GitHub: [https://github.com/Moh-dakai](https://github.com/Moh-dakai)
+* GitHub: [Contractor](https://github.com/Contractor-x)
+* GitHub: [Moh-dakai](https://github.com/Moh-dakai)
 ---
 
 ## 🏁 Final Words
