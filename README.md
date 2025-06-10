@@ -1,6 +1,5 @@
-# 🪞 MindMirror: AI-Powered Virtual Therapist
-
-> **"Reflect. Vent. Grow. Every Day."**
+![Screenshot From 2025-06-10 21-50-15](https://github.com/user-attachments/assets/3b865645-f081-49ba-8957-a2a979fdc57e)
+#  MindMirror: AI-Powered Virtual Therapist
 
 ---
 
