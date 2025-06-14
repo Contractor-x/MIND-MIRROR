@@ -194,5 +194,5 @@ Let’s normalize therapy. Let’s democratize healing. 💙
 
 **Built with ❤️ and AI for ALL**
 
-```
+[![Netlify Status](https://api.netlify.com/api/v1/badges/15ea3731-d23a-42ff-843c-ce193f144a09/deploy-status)](https://app.netlify.com/projects/mymindmirror/deploys)
 
