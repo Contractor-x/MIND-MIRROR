@@ -27,11 +27,21 @@ const Dashboard = () => {
     }
   };
 
+  const Dashboard = () => {
+  const moods = useMoodHistory();
+  const streak = calculateStreak(moods);
+
+  
   return (
     <div className="max-w-3xl mx-auto p-6">
       <h1 className="text-2xl font-bold mb-4">Welcome back!</h1>
       <MoodTracker onMoodSubmit={handleMoodSubmit} />
       {lastMood && <p className="mt-4">✅ Mood saved: {lastMood}</p>}
+    </div>
+
+     <div className="p-6">
+      <h2 className="text-xl font-bold">🔥 Current Streak: {streak} Days</h2>
+      <MoodGrid data={moods.slice(-30)} />
     </div>
   );
 };
