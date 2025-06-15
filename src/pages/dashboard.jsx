@@ -43,6 +43,37 @@ const Dashboard = () => {
 
 // Inside JSX:
 <JournalEntry onSubmit={handleJournalSubmit} />
+
+// Add to dashboard or JournalPage.jsx
+
+const [journals, setJournals] = useState([]);
+
+useEffect(() => {
+  const fetchJournals = async () => {
+    const { data, error } = await supabase
+      .from('journal')
+      .select('*')
+      .eq('user_id', user.id)
+      .order('created_at', { ascending: false });
+
+    if (!error) setJournals(data);
+  };
+  fetchJournals();
+}, [user]);
+
+return (
+  <div className="mt-8">
+    <h3 className="text-xl font-bold mb-2">📖 Past Entries</h3>
+    {journals.map((j) => (
+      <div key={j.id} className="bg-gray-50 p-4 rounded shadow-sm mb-2">
+        <p className="text-sm text-gray-500">{new Date(j.created_at).toDateString()}</p>
+        <p className="text-md mt-1">{j.entry}</p>
+        {j.gratitude && <p className="text-green-600 mt-1">🙏 Grateful for: {j.gratitude}</p>}
+      </div>
+    ))}
+  </div>
+);
+
   
   const Dashboard = () => {
   const moods = useMoodHistory();
