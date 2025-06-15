@@ -1,3 +1,4 @@
+import JournalEntry from '../components/JournalEntry';
 import { supabase } from '../lib/supabaseClient';
 import MoodTracker from '../components/MoodTracker';
 import { useUser } from '@supabase/auth-helpers-react'; // optional if using Supabase auth
@@ -27,6 +28,22 @@ const Dashboard = () => {
     }
   };
 
+  onst handleJournalSubmit = async ({ entry, gratitude }) => {
+  const { data, error } = await supabase.from('journal').insert([
+    {
+      user_id: user.id,
+      entry,
+      gratitude
+    }
+  ]);
+
+  if (error) console.error('Journal error:', error.message);
+  else console.log('Journal saved:', data);
+};
+
+// Inside JSX:
+<JournalEntry onSubmit={handleJournalSubmit} />
+  
   const Dashboard = () => {
   const moods = useMoodHistory();
   const streak = calculateStreak(moods);
