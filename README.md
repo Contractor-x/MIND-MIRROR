@@ -41,14 +41,14 @@ This project is submitted to **6+ official BOLT tracks**:
 | 🧠 **Tavus**          | AI-generated personalized therapy video avatars.                        |
 | 🗣️ **ElevenLabs**     | Voice synthesis that reacts to user inputs like mood & journaling.      |
 | 📱 **RevenueCat**     | Subscription logic, paywall builder, and entitlement management.        |
-| ☁️ **Netlify**        | Full-stack hosting, CI/CD deployment.                                   |
+| ☁️ **Netlify**        | Full-stack hosting,                                                     |
 | 🌐 **Entri + IONOS**  | Custom domain registration and routing.                                 |
 | 🔗 **Algorand**       | Optional layer for blockchain-based data proof (journals, streaks).      |
 | 🧾 **Supabase**       | Auth, journaling DB, streak tracking, mood history storage.             |
 | 🔒 **Local Encryption** | Ensures total privacy for stored reflections.                         |
 | 📱 **Expo (optional)**| Mobile support for Android/iOS via React Native.                        |
 | 📹 **YouTube/Vimeo**  | Hosting the 3-min demo video.                                            |
-| 🐙 **GitHub**         | Version control, CI, and collaboration.                                 |
+| 🐙 **GitHub**         | Version control, CI/CD deployment, and collaboration.                                 |
 
 ---
 
