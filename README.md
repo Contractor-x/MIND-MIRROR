@@ -188,7 +188,7 @@ Built with the support of the **BOLT Hackathon Sponsors**:
 MindMirror, it’s a **movement**.
 A tool to help millions reflect, feel seen, and build emotional resilience one day at a time.
 
-Let’s normalize therapy. Let’s democratize healing.. 💙
+Let’s normalize therapy. Let’s democratize healing... 💙
 
 ---
 
