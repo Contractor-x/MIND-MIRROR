@@ -7,10 +7,10 @@
 
 **MindMirror** gives each user a personalized, private, and adaptive mental health journey using:
 
-- 🎥 **Tavus AI Video Avatars** – Your virtual therapist talks directly to you.
-- 🔊 **ElevenLabs Voice Synthesis** – Human-sounding responses that evolve with you.
-- 📔 **Mood tracking + Journaling** – Reflect and track emotions over time.
-- 🔐 **Privacy-first UX** – No human judgment, no ads, full data control.
+-  **Tavus AI Video Avatars** – Your virtual therapist talks directly to you.
+- **ElevenLabs Voice Synthesis** – Human-sounding responses that evolve with you.
+- **Mood tracking + Journaling** – Reflect and track emotions over time.
+- **Privacy-first UX** – No human judgment, no ads, full data control.
 
 > Mental health access is a global issue.  
 > MindMirror bridges the gap for those who can’t afford, access, or feel ready for traditional therapy.
@@ -22,8 +22,7 @@
 This project is submitted to **6+ official BOLT tracks**:
 
 | ✅ | Challenge                              | How We Qualify                                                                 |
-|----|----------------------------------------|---------------------------------------------------------------------------------|
-| ✅ | **Main Grand Prize**                   | Original, impactful app solving a major global issue.                          |
+|----|----------------------------------------|---------------------------------------------------------------------------------|                          |
 | ✅ | **Conversational AI Video Challenge**  | Tavus-powered therapist avatar integration.                                    |
 | ✅ | **Voice AI Challenge**                 | ElevenLabs-powered human-like voice responses.                                 |
 | ✅ | **RevenueCat Monetization Challenge**  | Subscription flow using RevenueCat SDK + Paywall Builder.                      |
@@ -38,17 +37,17 @@ This project is submitted to **6+ official BOLT tracks**:
 
 | Tool / API           | Purpose                                                                 |
 |----------------------|-------------------------------------------------------------------------|
-| 🧠 **Tavus**          | AI-generated personalized therapy video avatars.                        |
-| 🗣️ **ElevenLabs**     | Voice synthesis that reacts to user inputs like mood & journaling.      |
-| 📱 **RevenueCat**     | Subscription logic, paywall builder, and entitlement management.        |
-| ☁️ **Netlify**        | Full-stack hosting,                                                     |
-| 🌐 **Entri + IONOS**  | Custom domain registration and routing.                                 |
-| 🔗 **Algorand**       | Optional layer for blockchain-based data proof (journals, streaks).      |
-| 🧾 **Supabase**       | Auth, journaling DB, streak tracking, mood history storage.             |
-| 🔒 **Local Encryption** | Ensures total privacy for stored reflections.                         |
-| 📱 **Expo (optional)**| Mobile support for Android/iOS via React Native.                        |
-| 📹 **YouTube/Vimeo**  | Hosting the 3-min demo video.                                            |
-| 🐙 **GitHub**         | Version control, CI/CD deployment, and collaboration.                                 |
+|  **Tavus**          | AI-generated personalized therapy video avatars.                        |
+| **ElevenLabs**     | Voice synthesis that reacts to user inputs like mood & journaling.      |
+| **RevenueCat**     | Subscription logic, paywall builder, and entitlement management.        |
+| **Netlify**        | Full-stack hosting,                                                     |
+|  **Entri + IONOS**  | Custom domain registration and routing.                                 |
+| **Algorand**       | Optional layer for blockchain-based data proof (journals, streaks).      |
+| **Supabase**       | Auth, journaling DB, streak tracking, mood history storage.             |
+|  **Local Encryption** | Ensures total privacy for stored reflections.                         |
+| **Expo (optional)**| Mobile support for Android/iOS via React Native.                        |
+| **YouTube/Vimeo**  | Hosting the 3-min demo video.                                            |
+|  **GitHub**         | Version control, CI/CD deployment, and collaboration.                                 |
 
 ---
 
@@ -56,15 +55,15 @@ This project is submitted to **6+ official BOLT tracks**:
 
 | 🌟 Feature                    | Description                                                                 |
 |-----------------------------|-----------------------------------------------------------------------------|
-| 🎥 **Daily Video Therapy**   | Watch personalized, AI-generated video check-ins each day.                 |
-| 🔊 **Voice Feedback**        | Receive calming voice reflections that respond to your inputs.             |
-| 📔 **Journaling & Reflection**| Write thoughts and track growth privately, encrypted end-to-end.           |
-| 📊 **Mood Tracker**          | Visually record emotional trends.                                          |
-| 🔁 **Streak Engine**         | Get rewarded for daily reflection — track personal consistency.            |
-| 🌍 **Multilingual Support**  | Localized video/voice delivery based on user’s language.                   |
-| 🧾 **Subscription Ready**    | Monetization via RevenueCat: unlock bonus content, deeper analysis, etc.   |
-| 🔐 **Privacy-First UX**      | No ads, no data selling, no human monitoring — your space is yours.        |
-| 🔗 **Blockchain Layer**      | Optional: store mood/streak hash on Algorand for proof-of-growth.          |
+|  **Daily Video Therapy**   | Watch personalized, AI-generated video check-ins each day.                 |
+| **Voice Feedback**        | Receive calming voice reflections that respond to your inputs.             |
+|  **Journaling & Reflection**| Write thoughts and track growth privately, encrypted end-to-end.           |
+|  **Mood Tracker**          | Visually record emotional trends.                                          |
+| **Streak Engine**         | Get rewarded for daily reflection — track personal consistency.            |
+|  **Multilingual Support**  | Localized video/voice delivery based on user’s language.                   |
+| **Subscription Ready**    | Monetization via RevenueCat: unlock bonus content, deeper analysis, etc.   |
+| **Privacy-First UX**      | No ads, no data selling, no human monitoring — your space is yours.        |
+| **Blockchain Layer**      | Optional: store mood/streak hash on Algorand for proof-of-growth.          |
 
 ---
 
@@ -145,10 +144,10 @@ Unit tests are located in the `/tests` directory and include:
 
 | Requirement ✅           | Details                                                       |
 | ----------------------- | ------------------------------------------------------------- |
-| 🎥 Demo Video           | \[YouTube/Vimeo link – INSERT HERE]                           |
-| 🔗 Live App             | [https://yourdomain.com](https://yourdomain.com)              |
-| 🛠️ Built with Bolt.new | Yes, using Bolt.new templates + ‘Built with Bolt’ badge shown |
-| 📧 Submit Email         | \[INSERT DEVELOPER EMAIL USED ON BOLT.NEW]                    |
+| Demo Video           | \[YouTube/Vimeo link – INSERT HERE]                           |
+| Live App             | [https://yourdomain.com](https://yourdomain.com)              |
+| Built with Bolt.new | Yes, using Bolt.new templates + ‘Built with Bolt’ badge shown |
+|  Submit Email         | \[INSERT DEVELOPER EMAIL USED ON BOLT.NEW]                    |
 
 ---
 
