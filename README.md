@@ -33,7 +33,7 @@ This project is submitted to **6+ official BOLT tracks**:
 
 ---
 
-## 🧪 Tech Stack & Tools
+## Tech Stack & Tools
 
 | Tool / API           | Purpose                                                                 |
 |----------------------|-------------------------------------------------------------------------|
