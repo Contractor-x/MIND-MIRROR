@@ -3,7 +3,7 @@
 <!-- 12345678901234567890123 -->
 ---
 
-## 🧠 What is MindMirror?
+##  What is MindMirror?
 
 **MindMirror** gives each user a personalized, private, and adaptive mental health journey using:
 
