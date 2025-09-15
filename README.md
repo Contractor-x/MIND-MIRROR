@@ -51,7 +51,7 @@ This project is submitted to **6+ official BOLT tracks**:
 
 ---
 
-## 📲 Key Features
+##  Key Features
 
 | 🌟 Feature                    | Description                                                                 |
 |-----------------------------|-----------------------------------------------------------------------------|
